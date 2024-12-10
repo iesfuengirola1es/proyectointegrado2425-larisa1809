@@ -10,7 +10,7 @@ ___________
 | Introducción                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------|
 |*Contextualización del problema a resolver. Describir claramente de dónde surge la necesidad de este PI y su utilidad. En caso de que se base en trabajos previos, debe aclararse cuáles son las aportaciones que ofrecería tu proyecto.*                                                                                                                         |
-|La aplicación se llamará GolfTravelApp. Existe la necesidad de que los turistas encuentren un lugar para jugar al golf, por ejemplo en una determinada provincia. La aplicación permite hacer reserva para jugar en un club de golf específico, uno o más. También app puede ayudar reservar un hotel que esté ubicado cerca del club de golf seleccionado. Las reservas se pueden pagar en línea o em el club de golf. |
+|La aplicación se llamará GolfTravelApp. Existe la necesidad de que los turistas encuentren un lugar para jugar al golf en Andalucía,  en un determinado región. Usuario puede comparar precios y condiciones.La aplicación permite hacer reserva para jugar en un club de golf específico, uno o más. También app puede ayudar reservar un hotel que esté ubicado cerca del club de golf seleccionado, reservar eventos.  |
 
 | Objetivos                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------|
