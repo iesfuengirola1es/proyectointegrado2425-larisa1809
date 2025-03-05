@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GolfMalaga</string>
+
+
+    <string name="link_seeall"><a href="">See all</a></string>
+    <string name="log_in">Log in</string>
+
+
+</resources>

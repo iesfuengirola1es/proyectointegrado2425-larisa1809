@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "731588024290",
+    "project_id": "golfmalaga-555fb",
+    "storage_bucket": "golfmalaga-555fb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731588024290:android:bee49b9ee9641b75620bbb",
+        "android_client_info": {
+          "package_name": "com.example.golf_malaga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1Q9ddpOfiiz7uptib35Ui3MKFnjir4qU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
