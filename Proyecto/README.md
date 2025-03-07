@@ -10,7 +10,7 @@ Una aplicación basada en Android/Java que ayuda al usuario a encontrar el mejor
 <h3>Página principal</h3>
 
 Página principal y búsqueda de clubes de golf en relación de la longitud del recorrido. La longitud y la dificultad del recorrido están determinadas por el número de hoyos. Al hacer clic en el club seleccionado, el usuario será redirigido a la página del club. Para entrar a la página principal y buscar un club, el usuario no necesita autenticación. 
-
+<br>
 <div style="flex">
     <img height="500px" src="ReadmeImages/Screenshot_20250307_111109_GolfMalaga.jpg">&nbsp;&nbsp;&nbsp;&nbsp;
     >
@@ -26,7 +26,7 @@ Página principal y búsqueda de clubes de golf en relación de la longitud del 
 <h3>Búsqueda de clubes</h3>
 
 El usuario también puede ir a una página con  lista de todos los clubes de golf y buscar por una ciudad específica. Luego hará clic en la flecha a la derecha del club seleccionado y será llevado a la página del club. 
-
+<br>
  
 <img height="500px" src="ReadmeImages/Screenshot_20250307_111118_GolfMalaga.jpg">&nbsp;&nbsp;&nbsp;&nbsp;
     <img height="500px" src="ReadmeImages/Screenshot_20250307_111130_GolfMalaga.jpg">
@@ -36,7 +36,7 @@ El usuario también puede ir a una página con  lista de todos los clubes de gol
 
 Cada club se muestra en la página como una tarjeta con las características principales y más importantes. Aquí encontrará una descripción del recorrido la ruta, servicios adicionales, condiciones meteorológicas en tiempo real e información de contacto. Desde aquí el usuario podrá acceder al chat y buscar compañeros para jugar al golf.
 
-
+<br>
 <div style="flex">
     <img height="500px" src="ReadmeImages/Screenshot_20250307_111144_GolfMalaga.jpg">
 </div>
@@ -49,12 +49,12 @@ Cada club se muestra en la página como una tarjeta con las características pri
     <img height="500px" src="ReadmeImages/s9.png">
 </div>
 
-## :exclamation: &nbsp;Descargar APK
-[<img height="50px" src="https://user-images.githubusercontent.com/55530657/174788015-6c9ff558-c415-4ef9-a204-3fae1696014d.png">](https://github.com/jairobuendia/ProyectoFinalTask4Home/blob/main/Task4HomeAPK.apk)
+## &nbsp;Descargar APK
+
 <br>
 
 
-## :books: &nbsp;Bibliografía
+##  &nbsp;Bibliografía
 :point_right:&nbsp;[Android](https://developer.android.com/)
 <br>
 :point_right:&nbsp;[Firebase](https://firebase.google.com/docs)
