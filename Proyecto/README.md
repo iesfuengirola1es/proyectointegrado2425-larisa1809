@@ -55,18 +55,17 @@ Cada club se muestra en la página como una tarjeta con las características pri
 
 
 ##  &nbsp;Bibliografía
-:point_right:&nbsp;[Android](https://developer.android.com/)
+&nbsp;[Android](https://developer.android.com/)
 <br>
-:point_right:&nbsp;[Firebase](https://firebase.google.com/docs)
+&nbsp;[Firebase](https://firebase.google.com/docs)
 <br>
-:point_right:&nbsp;[YoutubeMoureDev](https://www.youtube.com/c/MouredevApps)
+&nbsp;[YoutubeMoureDev](https://www.youtube.com/c/MouredevApps)
+&nbsp;[Youtube](https://www.youtube.com/results?search_query=firebase+recyclerview+android+studio)
 <br>
-:point_right:&nbsp;[Youtube](https://www.youtube.com/results?search_query=firebase+recyclerview+android+studio)
-<br>
-:point_right:&nbsp;[StackOverlow](https://stackoverflow.com/)
+&nbsp;[StackOverlow](https://stackoverflow.com/)
 <br>
 
-## :mag_right: &nbsp;Otros repositorios
+##  &nbsp;Otros repositorios
 HLC/DI - [Landing Page en Angular](https://github.com/jairobuendia/Task4HomeLanding)
 <br>
 SGE - [Programa Python](https://github.com/jairobuendia/Task4HomePython)
