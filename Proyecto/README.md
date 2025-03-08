@@ -76,7 +76,7 @@ Después de una autenticación automática exitosa, el usuario será redirigido 
 (https://github.com/iesfuengirola1es/proyectointegrado2425-larisa1809/blob/main/Proyecto/app-debug.apk)
 <br>
 
-<h3>Bibliografía</h3>
+<h4>Bibliografía</h4>
 
 &nbsp;[Android](https://developer.android.com/)
 <br>
