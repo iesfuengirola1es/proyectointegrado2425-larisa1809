@@ -73,7 +73,7 @@ Después de una autenticación automática exitosa, el usuario será redirigido 
 <br>
 <h3>Descargar APK</h3>
 <br>
-[<img height="30px" src="https://user-images.githubusercontent.com/55530657/174788015-6c9ff558-c415-4ef9-a204-3fae1696014d.png">](https://github.com/jairobuendia/ProyectoFinalTask4Home/blob/main/Task4HomeAPK.apk)
+[<img height="30px" src="https://user-images.githubusercontent.com/55530657/174788015-6c9ff558-c415-4ef9-a204-3fae1696014d.png">](https://github.com/iesfuengirola1es/proyectointegrado2425-larisa1809/blob/main/Proyecto/app-debug.apk)
 <br>
 
 <h3>Bibliografía</h3>
