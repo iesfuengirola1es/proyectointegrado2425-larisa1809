@@ -73,7 +73,8 @@ Después de una autenticación automática exitosa, el usuario será redirigido 
 <br>
 <h3>Descargar APK</h3>
 
-(https://github.com/iesfuengirola1es/proyectointegrado2425-larisa1809/blob/main/Proyecto/app-debug.apk)
+https://github.com/iesfuengirola1es/proyectointegrado2425-larisa1809/blob/main/Proyecto/app-debug.apk
+
 <br>
 
 <h4>Bibliografía</h4>
