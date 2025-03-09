@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CampDetails">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:paddingBottom="40dp">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/campdetails_image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/marbella"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/ShapeableImageView_ALLRoundedCorners" />
+
+        <TextView
+            android:id="@+id/campdetails_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="sans-serif"
+            android:text="Casares Golf Club, Casares"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/campdetails_image" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="sans-serif"
+            android:text="Información"
+            android:textColor="@color/color_contrast"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/campdetails_name" />
+
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+        <TextView
+            android:id="@+id/campdetails_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:text="Golf club very popular"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.541"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+        <Button
+            android:id="@+id/campdetails_getlocationbtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/color_botton"
+            android:text="Ubicación"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_reserve" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/campdetails_place1image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/estepona"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@+id/divider2"
+            app:shapeAppearanceOverlay="@style/ShapeableImageView_ALLRoundedCorners" />
+
+        <TextView
+            android:id="@+id/rest1btn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@+id/divider2"
+             />
+
+        <EditText
+            android:id="@+id/campNameInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text=""
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/chat"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="28dp"
+
+            android:layout_marginBottom="56dp"
+            app:layout_constraintBottom_toTopOf="@+id/divider2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/campdetails_getlocationbtn"
+            app:srcCompat="@drawable/golf_stick" />
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="299dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="20dp"
+            android:text="Chat para buscar compañeros"
+            android:textColor="@color/color_botton"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/chat"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/campdetails_getlocationbtn" />
+
+        <TextView
+            android:id="@+id/campdetails_food1name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:fontFamily="sans-serif"
+            android:text="Description"
+            android:textColor="@color/color_add"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/campdetails_food1image"
+            app:layout_constraintTop_toTopOf="@+id/campdetails_food1image" />
+
+        <TextView
+            android:id="@+id/campdetails_place1description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="sans-serif"
+            android:text="Description here"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/campdetails_place1image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/campdetails_place1name"
+            app:layout_constraintTop_toBottomOf="@+id/campdetails_place1name" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/campdetails_food2image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/casares"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@+id/campdetails_food1image"
+            app:shapeAppearanceOverlay="@style/ShapeableImageView_ALLRoundedCorners" />
+
+        <TextView
+            android:id="@+id/hotel2btn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@+id/campdetails_food1image"
+            />
+
+        <TextView
+            android:id="@+id/campdetails_food2name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:fontFamily="sans-serif"
+            android:text="Description"
+            android:textColor="@color/color_add"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/campdetails_food2image"
+            app:layout_constraintTop_toTopOf="@+id/campdetails_food2image" />
+
+        <TextView
+            android:id="@+id/campdetails_food2description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="sans-serif"
+            android:text="Description here"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/campdetails_food2image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/campdetails_food2image"
+            app:layout_constraintTop_toBottomOf="@+id/campdetails_food2name" />
+
+        <TextView
+            android:id="@+id/campdetails_place2description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="sans-serif"
+            android:text="Description here"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/campdetails_place2image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/campdetails_place1name"
+            app:layout_constraintTop_toBottomOf="@+id/campdetails_place2name" />
+
+        <TextView
+            android:id="@+id/campdetails_place2name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:fontFamily="sans-serif"
+            android:text="Description"
+            android:textColor="@color/color_add"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/campdetails_place2image"
+            app:layout_constraintTop_toTopOf="@+id/campdetails_place2image" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/campdetails_place2image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mijas"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@id/campdetails_place1image"
+            app:shapeAppearanceOverlay="@style/ShapeableImageView_ALLRoundedCorners" />
+
+
+        <TextView
+            android:id="@+id/rest2btn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@id/campdetails_place1image"
+             />
+
+        <TextView
+            android:id="@+id/campdetails_place1name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:fontFamily="sans-serif"
+            android:text="Description"
+            android:textColor="@color/color_add"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/campdetails_place1image"
+            app:layout_constraintTop_toTopOf="@+id/campdetails_place1image" />
+
+        <TextView
+            android:id="@+id/campdetails_food1description"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="sans-serif"
+            android:text="Description here"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/campdetails_food1image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/campdetails_place1name"
+            app:layout_constraintTop_toBottomOf="@+id/campdetails_food1name" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="72dp"
+            android:fontFamily="sans-serif"
+            android:text="Restaurantes"
+            android:textColor="@color/color_contrast"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/campdetails_getlocationbtn" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif"
+            android:text="Hoteles"
+            android:textColor="@color/color_contrast"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/campdetails_place2image" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="24dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/campdetails_food1image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/casares"
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@+id/divider3"
+            app:shapeAppearanceOverlay="@style/ShapeableImageView_ALLRoundedCorners" />
+
+        <TextView
+            android:id="@+id/hotel1btn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="24dp"
+
+            app:layout_constraintStart_toStartOf="@+id/divider2"
+            app:layout_constraintTop_toBottomOf="@+id/divider3"
+             />
+
+        <LinearLayout
+            android:id="@+id/layout_weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_service"
+            >
+            <TextView
+                android:id="@+id/campdetails_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Tiempo actual:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginRight="5dp"/>
+            <TextView
+                android:id="@+id/temperatureText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="25°"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_margin="1dp"/>
+
+            <ImageView
+                android:id="@+id/weatherIcon"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:contentDescription="Weather Icon"
+                android:src="@drawable/ic_01d"
+                android:layout_margin="2dp"
+                />
+
+            <TextView
+                android:id="@+id/textViento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Viento "
+                 />
+            <TextView
+                android:id="@+id/windText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Text"
+                 />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_reserve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/campdetails_getlocationbtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_weather">
+
+            <TextView
+                android:id="@+id/textreserve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Rezerva"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/reserve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="por telefono 5555555555555555"
+                android:textColor="@color/color_add"
+                android:textSize="16sp"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/campdetails_description">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Servicios:"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gimnasio,alquiler carros "
+                android:textColor="@color/black"
+                android:textSize="16sp"
+
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageExitCamp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/campdetails_food2name" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

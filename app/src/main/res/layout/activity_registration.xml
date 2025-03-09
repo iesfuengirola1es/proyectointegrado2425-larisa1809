@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    tools:context=".Login.Registration"
+    >
+
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear nuevo usuario"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout_imagen"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_below="@+id/text_login"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/golf_stick" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/rgusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:layout_below="@+id/layout_imagen"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:padding="10dp"
+        android:background="@drawable/style_edit_field"
+
+        />
+    <EditText
+        android:id="@+id/clubnametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Club"
+        android:layout_below="@+id/rgusername"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:padding="10dp"
+        android:background="@drawable/style_edit_field"
+
+        />
+
+    <EditText
+        android:id="@+id/rgemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/clubnametext"
+
+
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:padding="10dp"
+        android:background="@drawable/style_edit_field"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:id="@+id/rgpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rgemail"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+
+        android:background="@drawable/style_edit_field"
+        android:hint="Contraseña"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/rgrepassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rgpassword"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/style_edit_field"
+        android:hint="Repite contraseña"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/signupbutton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/rgrepassword"
+        android:text="Añadir usuario"
+        android:background="@drawable/style_botton"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:id="@+id/loginbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signupbutton"
+        android:text="Entrar con email y contraseña"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:textColor="@color/color_add"
+        android:textAlignment="center"/>
+
+
+
+</RelativeLayout>
